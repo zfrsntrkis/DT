@@ -4,7 +4,7 @@ Son güncelleme: 21.10.2026
 
 ## Tamamlananlar
 
-- v1.2.1 uygulama arayüzü ve Firebase yapılandırması depoya alındı.
+- v1.2.2 uygulama arayüzü ve Firebase yapılandırması depoya alındı.
 - Google ile giriş, izinli e-posta listesi ve yönetici kullanıcı ekleme ekranı uygulandı.
 - Firestore kayıtları `users/{uid}` altında kullanıcıya özel tutuluyor.
 - Kurum bilgileri, personel/unvan, firma, bütçe türü ve bütçe tertibi alanları bulunuyor.
@@ -22,7 +22,7 @@ Son güncelleme: 21.10.2026
 ## Bilinen sınırlamalar
 
 - PDF örneklerindeki bazı gömülü metin fontları bozuk kodlandığı için anonimleştirme görsel kaplama ile yapılır; PDF metin katmanında eski metin kalabilir. Son kullanıcı çıktısında görünmemesi sağlanır.
-- Tek Kaynaktan Temin formu, taranmış/alan bilgisi okunamayan kaynak PDF yerine boş ve anonim iki sayfalık standart form olarak dağıtılır.
+- Tek Kaynaktan Temin formu, taranmış/alan bilgisi okunamayan kaynak PDF yerine referans Word formunun başlık ve bölüm akışını koruyan boş ve anonim üç sayfalık standart form olarak dağıtılır.
 - `firebase-config.js` depoda boş şablondur; gerçek istemci ayarları yerel ve Git dışı `firebase-config.local.js` dosyasındadır. Yönetici anahtarı depoya konulmaz. Firebase Console'da yetkili e-posta ve Google sağlayıcısı ayrıca kontrol edilmelidir.
 - Taşınabilir EXE paketleme henüz tamamlanmadı; mevcut sürüm tarayıcıda çalışan yerel web uygulamasıdır.
 - Gerçek kurum PDF'lerinin tüm sayfaları için son görsel kabul testi ve gerçek kullanıcı kabul senaryoları sonraki aşamadadır.
@@ -40,3 +40,4 @@ Son güncelleme: 21.10.2026
 - Şablon değiştirildiğinde önce `templates.json`, sonra `template-fields.json` ve `template-coordinates.json` güncellenir.
 - `template_renderer.py` yalnızca çıktı üretiminde kullanılan koordinat katmanıdır; kaynak şablonlar `templates/2026.01` altında tutulur.
 - `tmp/` ve Python önbellekleri Git'e gönderilmez.
+

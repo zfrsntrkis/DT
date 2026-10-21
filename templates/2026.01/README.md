@@ -1,6 +1,6 @@
 # Doğrudan Temin Şablonları — 2026.01
 
-Bu klasör, `Örnek veriler.pdf` içindeki yedi örnek formun ayrı PDF dosyalarına ayrılmış halini içerir.
+Bu klasör, Örnek veriler.pdf içindeki yedi örnek formun ayrı PDF dosyalarına ayrılmış halini ve kullanıcı tarafından sağlanan Word düzeni referans alınarak oluşturulan anonim üç sayfalık Tek Kaynaktan Temin Formunu içerir.
 
 | Anahtar | Dosya |
 |---|---|
@@ -14,3 +14,4 @@ Bu klasör, `Örnek veriler.pdf` içindeki yedi örnek formun ayrı PDF dosyalar
 | single-source | Tek Kaynak Formu.pdf |
 
 Alanların veri kaynakları [../../template-fields.json](../../template-fields.json) dosyasında tanımlıdır. Şablon sürümü alım kaydında `2026.01` olarak saklanır.
+

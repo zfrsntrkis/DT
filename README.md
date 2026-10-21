@@ -1,6 +1,6 @@
 # Doğrudan Temin Evrak Hazırlama
 
-Sürüm: **v1.2.1**
+Sürüm: **v1.2.2**
 
 Bu proje, doğrudan temin dosyasındaki bilgileri bir kez girip kurumsal evrak şablonlarına aktarmak için hazırlanmış kurulum gerektirmeyen web uygulamasıdır. `index.html` dosyası yerel demo modunda açılabilir; Firebase yapılandırması etkin olduğunda Google hesabı ile giriş ve kullanıcıya özel Firestore kayıtları kullanılır.
 
@@ -9,9 +9,9 @@ Bu proje, doğrudan temin dosyasındaki bilgileri bir kez girip kurumsal evrak �
 - `index.html`, `app.js`, `styles.css`: uygulama arayüzü ve iş akışı.
 - `firebase-config.js`, `firebase.json`, `firestore.rules`, `firestore.indexes.json`: Firebase bağlantısı ve güvenlik yapılandırması.
 - `templates.json`, `template-fields.json`, `template-coordinates.json`: şablon kataloğu ve alan eşleştirmeleri.
-- `templates/2026.01/`: 7 kurumsal PDF ile Tek Kaynaktan Temin Standart Formu. Örnek kişi, unvan, ürün ve firma bilgileri anonim yer tutuculara çevrilmiştir (`AdSoyad1`, `Ünvan1`, `Ürün1`, `Firma1`).
+- `templates/2026.01/`: 7 kurumsal PDF ile referans Word düzenine göre üç sayfalık Tek Kaynaktan Temin Standart Formu. Örnek kişi, unvan, ürün ve firma bilgileri anonim yer tutuculara çevrilmiştir (`AdSoyad1`, `Ünvan1`, `Ürün1`, `Firma1`).
 - `template_renderer.py`, `export_outputs.py`: PDF alan yerleştirme, birleşik PDF, Word ve Excel çıktısı yardımcıları.
-- `anonymize_single_source.py`: boş Tek Kaynak formu üretme aracı. Kaynak örneklerdeki gerçek ad eşleştirmelerini içeren anonimleştirme yardımcısı yerel tutulur ve GitHub'a gönderilmez.
+- `anonymize_single_source.py`: referans düzene göre boş Tek Kaynak formu üretme aracı. Kaynak örneklerdeki gerçek ad eşleştirmelerini içeren anonimleştirme yardımcısı yerel tutulur ve GitHub'a gönderilmez.
 - `PROJECT_STATUS.md`: tamamlanan işler, bilinen sınırlamalar ve sonraki geliştirme sırası.
 - `CHANGELOG.md`: sürüm geçmişi.
 
@@ -38,3 +38,4 @@ Uygulama PDF, Word ve Excel dosyalarını buluta yüklemez. Kullanıcı istediğ
 ## Sürümleme
 
 Yeni değişiklikleri `CHANGELOG.md` içine ekleyin, `package.json` sürümünü artırın ve anlamlı bir Git commit'i oluşturun. Şablon düzeni değişirse `templates.json` içindeki şablon sürümünü de güncelleyin.
+

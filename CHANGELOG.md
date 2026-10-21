@@ -1,5 +1,11 @@
 # Değişiklik Günlüğü
 
+## v1.2.2 - 21.10.2026
+
+- Kullanıcının sağladığı Tek Kaynaktan Temin Formu-2025.doc düzeni referans alınarak form üç sayfalık başlık, kapsam, gerekçe, fiyat araştırması ve imza akışıyla yeniden oluşturuldu.
+- Form içindeki gerçek kişi, firma, adres ve ürün bilgileri anonim AdSoyad1, Ünvan1, Firma1, Ürün1 gibi yer tutuculara dönüştürüldü.
+- Tek Kaynak PDF üretim aracı yeni yerleşimi tekrar oluşturabilecek şekilde güncellendi.
+
 ## v1.2.1 - 21.10.2026
 
 - Kurumsal PDF örnekleri kaynak yerleşimleri korunarak anonimleştirildi.
@@ -7,7 +13,7 @@
 - Ürün ve firma örnekleri `Ürün1` ve `Firma1` biçimine dönüştürüldü.
 - Bozuk PDF metin kodlamalarındaki kalan özel ad ve unvan varyantları için eşleştirme düzeltildi.
 - Aynı kişi veya unvanın PDF üzerinde üst üste iki kez yazılmasına neden olan yerleşim hatası giderildi.
-- Tek Kaynaktan Temin Standart Formu iki sayfalık boş ve anonim yerleşimle güncellendi.
+- Tek Kaynaktan Temin Standart Formu referans Word düzenine göre üç sayfalık boş ve anonim yerleşimle güncellendi.
 - Dosya Kapağı ve Belge Kontrol Listesi şablon katalogdan kaldırıldı.
 - Program ilerlemesi gösterimi arayüzden kaldırıldı.
 - `README.md` ve `PROJECT_STATUS.md` ile kurulum, Firebase ve sonraki geliştirme akışı belgelendi.
@@ -32,3 +38,4 @@
 - Belge sırasına göre çıktı oluşturma eklendi.
 - JSON dışa aktarma ve geri yükleme eklendi.
 - Şablon sürümü `2026.01` olarak tanımlandı.
+
