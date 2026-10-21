@@ -1,9 +1,16 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    // Replace admin@example.com before deploying your own Firebase rules.
+    function admin() { return signedIn() && request.auth.token.email == 'admin@example.com'; }
+    function allowed() { return admin() || (signedIn() && exists(/databases/$(database)/documents/access/$(request.auth.token.email))); }
+    match /access/{email} {
+      allow read: if admin() || (signedIn() && request.auth.token.email == email);
+      allow write: if admin();
+    }
     match /users/{userId}/{document=**} {
-      allow read, write: if request.auth != null && request.auth.uid == userId;
+      allow read, write: if allowed() && request.auth.uid == userId;
     }
   }
 }
-

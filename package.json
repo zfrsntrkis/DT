@@ -1,9 +1,8 @@
 {
   "name": "dogrudan-temin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
-  "description": "Doğrudan Temin Evrak Hazırlama - v1.2.0",
+  "description": "Doğrudan Temin Evrak Hazırlama - v1.2.1",
   "scripts": { "start": "npx serve .", "build": "echo Portable web build ready" },
   "dependencies": { "firebase": "^11.0.2" }
 }
-

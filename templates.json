@@ -1,16 +1,13 @@
 {
   "version": "2026.01",
   "documents": [
-    {"key":"need-request","name":"İhtiyaç Talep Fişi","required":true,"status":"Önizleme"},
-    {"key":"approximate-cost-assignment","name":"Yaklaşık Maliyet Görevlendirme","required":true,"status":"Önizleme"},
-    {"key":"approximate-cost-report","name":"Yaklaşık Maliyet Tespit Tutanağı","required":true,"status":"Önizleme"},
-    {"key":"direct-procurement-approval","name":"Doğrudan Temin Onay Belgesi","required":true,"status":"Önizleme"},
-    {"key":"market-price-research","name":"Piyasa Fiyat Araştırma Tutanağı","required":true,"status":"Önizleme"},
-    {"key":"inspection-assignment","name":"Muayene ve Kabul Görevlendirmesi","required":true,"status":"Önizleme"},
-    {"key":"inspection-report","name":"Muayene ve Kabul Raporu","required":true,"status":"Önizleme"},
-    {"key":"single-source","name":"Tek Kaynaktan Temin Standart Formu","required":false,"condition":"22/a, 22/b veya 22/c","file":"templates/2026.01/Tek Kaynak Formu.pdf","status":"Örnek şablon eklendi"},
-    {"key":"cover","name":"Dosya Kapağı","required":true,"status":"Hazır"},
-    {"key":"checklist","name":"Belge Kontrol Listesi","required":true,"status":"Hazır"}
+    {"key":"need-request","name":"İhtiyaç Talep Fişi","required":true,"file":"templates/2026.01/01-ihtiyac-talep-fisi.pdf","status":"Örnek şablon eklendi"},
+    {"key":"approximate-cost-assignment","name":"Yaklaşık Maliyet Görevlendirme","required":true,"file":"templates/2026.01/02-yaklasik-maliyet-gorevlendirme.pdf","status":"Örnek şablon eklendi"},
+    {"key":"approximate-cost-report","name":"Yaklaşık Maliyet Tespit Tutanağı","required":true,"file":"templates/2026.01/03-yaklasik-maliyet-tespit-tutanagi.pdf","status":"Örnek şablon eklendi"},
+    {"key":"direct-procurement-approval","name":"Doğrudan Temin Onay Belgesi","required":true,"file":"templates/2026.01/04-dogrudan-temin-onay-belgesi.pdf","status":"Örnek şablon eklendi"},
+    {"key":"market-price-research","name":"Piyasa Fiyat Araştırma Tutanağı","required":true,"file":"templates/2026.01/05-piyasa-fiyat-arastirma-tutanagi.pdf","status":"Örnek şablon eklendi"},
+    {"key":"inspection-assignment","name":"Muayene ve Kabul Görevlendirmesi","required":true,"file":"templates/2026.01/06-muayene-kabul-gorevlendirme.pdf","status":"Örnek şablon eklendi"},
+    {"key":"inspection-report","name":"Muayene ve Kabul Raporu","required":true,"file":"templates/2026.01/07-muayene-kabul-raporu.pdf","status":"Örnek şablon eklendi"},
+    {"key":"single-source","name":"Tek Kaynaktan Temin Standart Formu","required":false,"condition":"22/a, 22/b veya 22/c","file":"templates/2026.01/Tek Kaynak Formu.pdf","status":"Örnek şablon eklendi"}
   ]
 }
-

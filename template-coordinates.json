@@ -1,0 +1,24 @@
+{
+  "version": "2026.01",
+  "page": {"width": 595.2, "height": 841.68},
+  "common": {
+    "institution": [72, 798],
+    "workName": [72, 783],
+    "date": [430, 798],
+    "law": [72, 765],
+    "committeeCost": [72, 300],
+    "committeeInspection": [72, 285],
+    "itemsStart": [58, 700],
+    "itemsRowHeight": 24
+  },
+  "documents": {
+    "need-request": {"date": [430, 798], "workName": [72, 720], "itemsStart": [58, 600]},
+    "approximate-cost-assignment": {"date": [430, 798], "workName": [72, 720], "committeeCost": [72, 260]},
+    "approximate-cost-report": {"date": [430, 798], "workName": [72, 750], "itemsStart": [58, 640], "committeeCost": [72, 220]},
+    "direct-procurement-approval": {"date": [430, 790], "workName": [72, 690], "law": [72, 660]},
+    "market-price-research": {"date": [430, 790], "workName": [72, 750], "itemsStart": [58, 610], "committeeCost": [72, 180]},
+    "inspection-assignment": {"date": [430, 798], "workName": [72, 720], "committeeInspection": [72, 260]},
+    "inspection-report": {"date": [430, 790], "workName": [72, 730], "itemsStart": [58, 620], "committeeInspection": [72, 220]},
+    "single-source": {"date": [430, 790], "workName": [72, 730]}
+  }
+}

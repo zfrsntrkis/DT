@@ -1,0 +1,80 @@
+{
+  "templateVersion": "2026.01",
+  "coordinateUnit": "pdf-point",
+  "documents": {
+    "need-request": {
+      "file": "templates/2026.01/01-ihtiyac-talep-fisi.pdf",
+      "fields": [
+        {"source":"procurement.date","label":"Tarih"},
+        {"source":"procurement.workName","label":"İhtiyaç açıklaması"},
+        {"source":"procurement.items","label":"Mal/hizmet kalemleri"},
+        {"source":"personnel.requester","label":"Talep eden"},
+        {"source":"personnel.realizationOfficer","label":"Gerçekleştirme görevlisi"},
+        {"source":"institution.authority","label":"Harcama yetkilisi"}
+      ]
+    },
+    "approximate-cost-assignment": {
+      "file": "templates/2026.01/02-yaklasik-maliyet-gorevlendirme.pdf",
+      "fields": [
+        {"source":"procurement.date","label":"Görevlendirme tarihi"},
+        {"source":"procurement.workName","label":"İşin adı"},
+        {"source":"procurement.law","label":"Hukuki dayanak"},
+        {"source":"procurement.committee.approximateCost","label":"Yaklaşık maliyet görevlileri"},
+        {"source":"institution.authority","label":"Olur makamı"}
+      ]
+    },
+    "approximate-cost-report": {
+      "file": "templates/2026.01/03-yaklasik-maliyet-tespit-tutanagi.pdf",
+      "fields": [
+        {"source":"institution.name","label":"İdarenin adı"},
+        {"source":"procurement.items","label":"Maliyet cetveli"},
+        {"source":"procurement.offers","label":"Firma fiyatları"},
+        {"source":"procurement.total","label":"Yaklaşık maliyet toplamı"},
+        {"source":"procurement.committee.approximateCost","label":"Tespit görevlileri"}
+      ]
+    },
+    "direct-procurement-approval": {
+      "file": "templates/2026.01/04-dogrudan-temin-onay-belgesi.pdf",
+      "fields": [
+        {"source":"institution.name","label":"Alımı yapan idare"},
+        {"source":"procurement.workName","label":"İşin adı"},
+        {"source":"procurement.law","label":"Temin şekli"},
+        {"source":"procurement.budgetType","label":"Bütçe türü"},
+        {"source":"procurement.budgetItem","label":"Bütçe tertibi"},
+        {"source":"procurement.total","label":"Yaklaşık maliyet"},
+        {"source":"institution.authority","label":"Onay"}
+      ]
+    },
+    "market-price-research": {
+      "file": "templates/2026.01/05-piyasa-fiyat-arastirma-tutanagi.pdf",
+      "fields": [
+        {"source":"institution.name","label":"İdarenin adı"},
+        {"source":"procurement.workName","label":"Alım konusu"},
+        {"source":"procurement.items","label":"Mal/hizmet tablosu"},
+        {"source":"companies","label":"Teklif veren firmalar"},
+        {"source":"procurement.bestOffer","label":"Uygun görülen firma"},
+        {"source":"procurement.committee.approximateCost","label":"Piyasa araştırması görevlileri"}
+      ]
+    },
+    "inspection-assignment": {
+      "file": "templates/2026.01/06-muayene-kabul-gorevlendirme.pdf",
+      "fields": [
+        {"source":"procurement.date","label":"Görevlendirme tarihi"},
+        {"source":"procurement.workName","label":"İşin adı"},
+        {"source":"procurement.law","label":"Hukuki dayanak"},
+        {"source":"procurement.committee.inspection","label":"Muayene ve kabul komisyonu"},
+        {"source":"institution.authority","label":"Olur makamı"}
+      ]
+    },
+    "inspection-report": {
+      "file": "templates/2026.01/07-muayene-kabul-raporu.pdf",
+      "fields": [
+        {"source":"procurement.date","label":"Kabul tarihi"},
+        {"source":"procurement.workName","label":"Yapılacak iş"},
+        {"source":"procurement.items","label":"Teslim alınan kalemler"},
+        {"source":"procurement.committee.inspection","label":"Komisyon üyeleri"},
+        {"source":"procurement.acceptanceNote","label":"Kabul açıklaması"}
+      ]
+    }
+  }
+}

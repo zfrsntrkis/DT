@@ -1,0 +1,19 @@
+# Yerel çalışma çıktıları
+tmp/
+__pycache__/
+*.py[cod]
+
+# Yerel geliştirme ayarları ve bağımlılıklar
+node_modules/
+.env
+.env.*
+!.env.example
+firebase-config.local.js
+anonymize_existing_templates.py
+
+# Editör ve işletim sistemi dosyaları
+.vscode/
+.idea/
+*.user
+Thumbs.db
+Desktop.ini

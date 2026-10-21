@@ -1,11 +1,12 @@
-// Firebase Console > Project settings > Your apps bilgilerinizle doldurun.
+// Public template. Copy your Firebase Web App settings here for a local run,
+// or create firebase-config.local.js (ignored by Git) to keep them separate.
 window.FIREBASE_CONFIG = {
-  apiKey: "AIzaSyD8JCRmPhcvLCteGfKO85HPSjjxn8-15XU",
-  authDomain: "dogrudantemin-f59f4.firebaseapp.com",
-  projectId: "dogrudantemin-f59f4",
-  storageBucket: "dogrudantemin-f59f4.firebasestorage.app",
-  messagingSenderId: "188606171480",
-  appId: "1:188606171480:web:13e781f907df2682cffd2d",
-  measurementId: "G-Y6RZH2XLL9"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
+  adminEmail: "admin@example.com"
 };
-
